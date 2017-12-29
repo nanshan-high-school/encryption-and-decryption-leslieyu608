@@ -19,7 +19,7 @@ int main() {
 		input[i]-=num;
 		
 		if ((input[i] < 'A' && input[i] >= 'A'-num) || (input[i] < 'a' && input[i] >= 'a'-num)) {
-		input[i]+=26;
+			input[i]+=26;
 	  }
 	}
 	
@@ -27,7 +27,7 @@ int main() {
 		input[i]+=num;
 		
 		if ((input[i] > 'Z' && input[i] <= 'Z'+num) || (input[i] > 'z' && input[i] <= 'z'+num)) {
-		input[i]-=26;
+			input[i]-=26;
 	  }
 	}
 	
